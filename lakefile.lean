@@ -14,3 +14,6 @@ lean_lib REPL {
 lean_exe repl where
   root := `REPL.Main
   supportInterpreter := true
+
+require mathlib from git
+  "https://github.com/leanprover-community/mathlib4.git" @ "38dbcd8285bc4b1391619c12f158a7409f3dfc12"
